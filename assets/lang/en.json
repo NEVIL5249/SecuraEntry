@@ -1,0 +1,16 @@
+{
+  "title": "Language Settings",
+  "Select Language": "Select your preferred language here",
+  "english": "English",
+  "hindi": "Hindi",
+  "spanish": "Spanish",
+  "settings": "Settings",
+  "language": "Language",
+  "notifications": "Notifications",
+  "privacy_security": "Privacy & Security",
+  "help_support": "Help & Support",
+  "logout": "Logout",
+  "logout_title": "Logout",
+  "logout_message": "Are you sure you want to logout?",
+  "cancel": "Cancel"
+}

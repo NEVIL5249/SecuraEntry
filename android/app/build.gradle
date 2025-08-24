@@ -1,0 +1,92 @@
+//plugins {
+//    id "com.android.application"
+//    id "kotlin-android"
+//    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+//    id "dev.flutter.flutter-gradle-plugin"
+//    id("com.google.gms.google-services")
+//}
+//
+//android {
+//    namespace = "com.example.secura_entry"
+//    compileSdk = flutter.compileSdkVersion
+//    ndkVersion = flutter.ndkVersion
+//
+//    compileOptions {
+//        sourceCompatibility = JavaVersion.VERSION_1_8
+//        targetCompatibility = JavaVersion.VERSION_1_8
+//    }
+//
+//    kotlinOptions {
+//        jvmTarget = JavaVersion.VERSION_1_8
+//    }
+//
+//    defaultConfig {
+//        defaultConfig {
+//            applicationId = "com.badriquantech.secura_entry"
+//            minSdk = flutter.minSdkVersion // This should be the minimum SDK version you want to support
+//            targetSdkVersion flutter.targetSdkVersion
+//            versionCode flutter.versionCode
+//            versionName flutter.versionName
+//        }
+//    }
+//
+//    buildTypes {
+//        release {
+//            // TODO: Add your own signing config for the release build.
+//            // Signing with the debug keys for now, so `flutter run --release` works.
+//            signingConfig = signingConfigs.debug
+//        }
+//    }
+//}
+//
+//flutter {
+//    source = "../.."
+//}
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+}
+
+android {
+    namespace = "com.example.secura_entry"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+//    defaultConfig {
+//        applicationId = "com.badriquantech.secura_entry"
+//        minSdk = flutter.minSdkVersion
+//        targetSdk = flutter.targetSdkVersion
+//        versionCode = flutter.versionCode
+//        versionName = flutter.versionName
+//    }
+
+    defaultConfig {
+            applicationId = "com.badriquantech.secura_entry"
+            minSdk = 23  // Updated from flutter.minSdkVersion to 23
+            targetSdk = flutter.targetSdkVersion
+            versionCode = flutter.versionCode
+            versionName = flutter.versionName
+    }
+
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug // Ensure 'debug' is defined
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}

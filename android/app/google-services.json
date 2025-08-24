@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "171236165603",
+    "project_id": "secura-entry",
+    "storage_bucket": "secura-entry.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171236165603:android:f5ef7778799eff1192c2d6",
+        "android_client_info": {
+          "package_name": "com.badriquantech.secura_entry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNeTt0G6fns28NAg3RtKBY2may8SucWqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

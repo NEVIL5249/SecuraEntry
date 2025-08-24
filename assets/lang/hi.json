@@ -1,0 +1,31 @@
+{
+  "title": "भाषा सेटिंग्स",
+  "Select Language": "अपनी पसंदीदा भाषा यहाँ चुनें",
+  "english": "अंग्रेज़ी",
+  "hindi": "हिन्दी",
+  "spanish": "स्पेनिश",
+
+  "settings": "सेटिंग्स",
+  "Language": "भाषा",
+  "Notifications": "सूचनाएँ",
+  "Privacy Security": "गोपनीयता और सुरक्षा",
+  "Help Support": "मदद और समर्थन",
+  "Logout": "लॉगआउट",
+  "logout_title": "लॉगआउट",
+  "logout_message": "क्या आप वाकई लॉगआउट करना चाहते हैं?",
+  "cancel": "रद्द करें",
+
+
+  "Dashboard": "डैशबोर्ड",
+  "Analytics Overview": "विश्लेषण अवलोकन",
+  "Add guest": "अतिथि जोड़ें",
+  "Guest logs": "अतिथि लॉग",
+
+  "Active passes": "सक्रिय पास",
+  "Pass": "पास",
+  "Valid until": "वैधता तिथि",
+  "Edit": "संपादित करें",
+  "Delete": "हटाएं"
+}
+
+

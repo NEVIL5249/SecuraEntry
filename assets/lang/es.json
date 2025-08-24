@@ -1,0 +1,11 @@
+{
+  "settings": "Configuración",
+  "language": "Idioma",
+  "notifications": "Notificaciones",
+  "privacy_security": "Privacidad y Seguridad",
+  "help_support": "Ayuda y Soporte",
+  "logout": "Cerrar sesión",
+  "logout_title": "Cerrar sesión",
+  "logout_message": "¿Estás seguro de que quieres cerrar sesión?",
+  "cancel": "Cancelar"
+}

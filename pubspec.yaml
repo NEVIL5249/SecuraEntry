@@ -1,0 +1,59 @@
+name: secura_entry
+description: "A new Flutter project."
+publish_to: "none" 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^6.0.5
+  intl: ^0.19.0
+  qr_flutter: ^4.0.0
+  firebase_core: ^3.10.1
+  url_launcher: ^6.1.14
+  share_plus: ^10.1.4
+  path_provider: ^2.1.5
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.3
+  shared_preferences: ^2.5.2
+  provider: ^6.1.2
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+  firebase_storage: 12.4.2
+  uuid: ^4.0.0
+  flutter_localizations:
+    sdk: flutter
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+
+
+#flutter_icons:
+#  android: true
+#  ios: true
+#  image_path: "assets/icon.png"  # Path to your icon
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/predictive-analytics-in-finance-fb-1024x538.png
+    - assets/icon.png
+    - assets/lang/hi.json
+    - assets/lang/en.json
+    - assets/lang/es.json
